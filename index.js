@@ -8,7 +8,7 @@ module.exports = {
 	},
 	extends: [
 		'eslint:recommended',
-		'plugin:nuxt/recommended',
+		'plugin:vue/recommended',
 	],
 	plugins: [
 		'vue',
