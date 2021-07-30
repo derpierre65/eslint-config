@@ -14,6 +14,23 @@ module.exports = {
 		'vue',
 	],
 	rules: {
+		'array-bracket-spacing': ['error', 'always'],
+		semi: ['error', 'always'],
+		curly: 'error',
+		eqeqeq: ['error', 'always'],
+		'block-spacing': ['error'],
+		'no-trailing-spaces': ['error'],
+		'no-const-assign': ['error'],
+		'no-mixed-spaces-and-tabs': ['error'],
+		'comma-dangle': ['error', 'always-multiline'], // always
+		'max-statements-per-line': ['error', { max: 1 }],
+		'prefer-arrow-callback': ['error'],
+		'default-param-last': ['error'],
+		'dot-notation': 'error',
+		'brace-style': ['error', '1tbs', {
+			allowSingleLine: false,
+		}],
+
 		// vue rules
 		'vue/order-in-components': 'error',
 		'vue/this-in-template': 'error',
