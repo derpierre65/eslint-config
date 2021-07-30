@@ -27,7 +27,7 @@ module.exports = {
 		'prefer-arrow-callback': ['error'],
 		'default-param-last': ['error'],
 		'dot-notation': 'error',
-		'brace-style': ['error', '1tbs', {
+		'brace-style': ['error', 'stroustrup', {
 			allowSingleLine: false,
 		}],
 
