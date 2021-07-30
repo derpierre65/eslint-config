@@ -14,6 +14,8 @@ module.exports = {
 		'vue',
 	],
 	rules: {
+		'indent': [ 'error', 'tab' ],
+		'vue/html-indent': [ 'error', 'tab' ],
 		'array-bracket-spacing': ['error', 'always'],
 		semi: ['error', 'always'],
 		curly: 'error',
