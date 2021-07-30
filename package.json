@@ -6,7 +6,6 @@
 	"peerDependencies": {
 		"eslint": ">= 3",
 		"babel-eslint": ">= 10",
-		"eslint-plugin-nuxt": ">= 2",
 		"eslint-plugin-vue": ">= 7"
 	},
 	"author": "derpierre65",
