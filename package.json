@@ -5,8 +5,8 @@
 	"main": "index.js",
 	"peerDependencies": {
 		"eslint": ">= 3",
-		"babel-eslint": ">= 10",
-		"eslint-plugin-vue": ">= 7"
+		"eslint-plugin-vue": ">= 7",
+		"@babel/eslint-parser": ">= 7"
 	},
 	"author": "derpierre65",
 	"license": "ISC"
