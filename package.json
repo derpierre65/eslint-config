@@ -1,13 +1,16 @@
 {
 	"name": "@derpierre65/eslint-config",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "lib/index.js",
 	"peerDependencies": {
 		"eslint": ">= 3",
 		"eslint-plugin-vue": ">= 7",
 		"@babel/eslint-parser": ">= 7"
 	},
+	"files": [
+		"lib"
+	],
 	"author": "derpierre65",
 	"license": "ISC"
 }
