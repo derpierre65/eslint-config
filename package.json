@@ -5,8 +5,7 @@
 	"main": "lib/index.js",
 	"peerDependencies": {
 		"eslint": ">= 3",
-		"eslint-plugin-vue": ">= 7",
-		"@babel/eslint-parser": ">= 7"
+		"eslint-plugin-vue": ">= 7"
 	},
 	"files": [
 		"lib"
