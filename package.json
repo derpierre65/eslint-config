@@ -2,16 +2,19 @@
   "name": "@derpierre65/eslint-config",
   "version": "2.1.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "lib/configs/base.js",
   "peerDependencies": {
     "eslint": ">= 3",
     "eslint-plugin-vue": ">= 7",
     "eslint-plugin-unused-imports": ">= 3",
     "@stylistic/eslint-plugin": ">= 1"
   },
-  "files": [
-    "lib"
-  ],
+  "exports": {
+    "./base": "./lib/configs/base.js",
+    "./vue2": "./lib/configs/vue2.js",
+    "./vue3": "./lib/configs/vue3.js",
+    "./ts": "./lib/configs/typescript.js"
+  },
   "author": "derpierre65",
   "license": "ISC"
 }
