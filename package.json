@@ -1,6 +1,6 @@
 {
   "name": "@derpierre65/eslint-config",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "",
   "main": "lib/configs/base.js",
   "peerDependencies": {
