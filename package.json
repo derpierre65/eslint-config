@@ -8,7 +8,8 @@
     "eslint-plugin-vue": ">= 7",
     "eslint-plugin-unused-imports": "^3.0.0",
     "@stylistic/eslint-plugin": ">= 1",
-    "eslint-plugin-newline-destructuring": ">= 1"
+    "eslint-plugin-newline-destructuring": ">= 1",
+    "@stylistic/eslint-plugin-ts": ">= 2"
   },
   "exports": {
     "./base": "./lib/configs/base.js",
