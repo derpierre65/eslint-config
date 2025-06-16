@@ -1,19 +1,20 @@
 {
   "name": "@derpierre65/eslint-config",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "",
   "main": "lib/configs/base.js",
   "peerDependencies": {
-    "eslint": "~8.57.1",
-    "eslint-plugin-vue": "~9.33.0",
-    "eslint-plugin-unused-imports": "~3.2.0",
-    "@stylistic/eslint-plugin": "~3.1.0",
+    "eslint": ">= 9",
+    "eslint-plugin-vue": ">= 10",
+    "eslint-plugin-unused-imports": ">= 4",
+    "@stylistic/eslint-plugin": ">= 4",
     "eslint-plugin-newline-destructuring": ">= 1",
-    "@stylistic/eslint-plugin-ts": "~3.1.0"
+    "eslint-plugin-import-newlines": ">= 1",
+    "@typescript-eslint/eslint-plugin": ">= 8",
+    "@eslint/js": ">= 9"
   },
   "exports": {
     "./base": "./lib/configs/base.js",
-    "./vue2": "./lib/configs/vue2.js",
     "./vue3": "./lib/configs/vue3.js",
     "./ts": "./lib/configs/typescript.js"
   },
